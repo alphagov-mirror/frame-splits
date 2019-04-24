@@ -74,6 +74,10 @@ html, body {
 .layout-2x1 .item { width: 50%; height: 50%; }
 .layout-2x1 .item-1 { height: 100%; }
 
+.layout-2x1-75-25 .item-1 { float: right; width: 25%; height: 100%; }
+.layout-2x1-75-25 .item-2 { width: 75%; height: 75%; }
+.layout-2x1-75-25 .item-3 { width: 75%; height: 25%; }
+
 .layout-2x1ish .item { width: 67%; height: 50%; }
 .layout-2x1ish .item-1 { height: 100%; width: 33%; }
 
