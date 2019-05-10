@@ -1,0 +1,9 @@
+---
+applications:
+ - name: framesplits
+   memory: 64M
+   disk_quota: 100M
+   instances: 2
+   buildpacks: 
+     - staticfile_buildpack
+   stack: cflinuxfs3
